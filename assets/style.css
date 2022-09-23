@@ -5,14 +5,13 @@
 }
 
 :root {
-    --headersc:tan;
+    --headersc:blue;
     --fontc:black;
     --informationc:linear-gradient(to right,yellow,teal);
 }
 
 body{
 background: darkgreen;
-
 font-family: 'Times New Roman', Times, serif;
 font-size: 20px;
 }
@@ -22,10 +21,24 @@ font-size: 20px;
     border-width: 2px;
     padding:5px;
     margin:8px;
-   background:var( --informationc);
+    background:var( --informationc);
+    width: 400px;
+    height: 300px;
 }
 
 article {
-display:flex;
+    display:flex;
+    flex-wrap: wrap;
 }
+
+h2 {
+    border: 5px solid;
+    border-color: var(--fontc);
+    color: var(--headersc);
+    margin-top: -30px;
+    background-color: tan;
+    border-radius: 10px;
+    width: 300px;
+}
+
 
