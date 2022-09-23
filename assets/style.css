@@ -1,8 +1,31 @@
+
 * {
     margin: 0px
     padding: 0px;
 }
 
 :root {
-    
+    --headersc:tan;
+    --fontc:black;
+    --informationc:linear-gradient(to right,yellow,teal);
 }
+
+body{
+background: darkgreen;
+
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+}
+
+.boxcontainer{
+    border-style:dotted;
+    border-width: 2px;
+    padding:5px;
+    margin:8px;
+   background:var( --informationc);
+}
+
+article {
+display:flex;
+}
+
