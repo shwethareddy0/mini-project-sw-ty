@@ -1,44 +1,54 @@
-
-* {
+{
     margin: 0px
     padding: 0px;
 }
 
 :root {
-    --headersc:blue;
-    --fontc:black;
-    --informationc:linear-gradient(to right,yellow,teal);
+  --headersc: blue;
+  --fontc: black;
+  --informationc: linear-gradient(to right, yellow, teal);
 }
 
-body{
-background: darkgreen;
-font-family: 'Times New Roman', Times, serif;
-font-size: 20px;
+body {
+  background: darkgreen;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
 }
 
-.boxcontainer{
-    border-style:dotted;
-    border-width: 2px;
-    padding:5px;
-    margin:8px;
-    background:var( --informationc);
-    width: 400px;
-    height: 300px;
+.boxcontainer {
+  border-style: dotted;
+  border-width: 2px;
+  padding: 5px;
+  margin: 8px;
+  background: var(--informationc);
+  width: 400px;
+  height: 300px;
 }
 
 article {
-    display:flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h2 {
-    border: 5px solid;
-    border-color: var(--fontc);
-    color: var(--headersc);
-    margin-top: -30px;
-    background-color: tan;
-    border-radius: 10px;
-    width: 300px;
+  border: 2px solid;
+  border-color: var(--fontc);
+  color: var(--headersc);
+  margin-top: -30px;
+  background-color: tan;
+  border-radius: 10px;
+  width: 50%x;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-
+.boxpre {
+  padding: 10px;
+  margin: 5px;
+  background-color: beige;
+  height: 70%;
+  border-radius: 10px;
+  justify-items:center;
+  align-items: center;
+  user-select: all;
+}

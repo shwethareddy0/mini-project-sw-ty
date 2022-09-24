@@ -17,30 +17,79 @@
             <section class="boxcontainer">
                 <h2>Flexbox Row</h2>
                 <p>Use these three properties to create a Flexbox row.</p>
-                <pre><code> display: flex;
-                    flex-wrap: wrap;
-                </code></pre>
+                <pre class="boxpre">
+
+.row{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+                </pre>
             </section>
             <section class="boxcontainer">
                 <h2>Flexbox Column</h2>
                 <p>Use this to create a Flexbox column layout.</p>
+                <pre class="boxpre">
+                    
+.column{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
             </section>
             <section class="boxcontainer">
                 <h2>CSS Grid Layout</h2>
                 <p>Build a 12-column layout using CSS Grid.</p>
+                <pre class="boxpre">
+                    
+.grid{
+    display: grid;
+    width:100%
+    grid-template-columns:
+    repeat(12, 1fr);
+}
             </section>
             <section class="boxcontainer">
                 <h2>Linear Gradients</h2>
                 <p>This will create a background linear gradient from top to bottom.</p>
+                <pre class="boxpre">
+                    
+.linear-gradient-background {
+    background-image:linear-
+    gradient(
+        rgba(232,102,236,0.3)
+        rgba(232,102,236,0.6)
+        );
+}
             </section>
             <section class="boxcontainer">
                 <h2>Box Transition Grow</h2>
                 <p>Use transition and box shadows to glow on hover.</p>
+                <pre class="boxpre">
+                    
+.code-card .card-header{
+    border-radius:8px;
+    transition: all 0.5s ease-in-
+    out;
+}
+.code-card:hover.
+.code-card:hover. .card-header{
+    box-shadow: inset 0px 0px 8px
+rgba(232,102,236,1), 0 0 15px
+rgba(232,102,236,1);
+}
             </section>
             <section class="boxcontainer">
                 <h2>Overlay Car with Title</h2>
                 <p>Use position properties and negative margins to raise 
                     elements higher than their natural starting point.</p>
+                    <pre class="boxpre">
+                    
+.card-header{
+    position:relative;
+    margin-top: -20px;
+}
+                </pre>
             </section>
         </article>
     </body>
